@@ -1,0 +1,17 @@
+{
+  "name": "imageUploads",
+  "version": "1.0.0",
+  "description": "This Application accepts Single image file as input and it compress then converts to Base64 string",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Ashok Sriramadasu",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "2.5.7",
+    "express": "4.16.2",
+    "gm": "1.23.1",
+    "multer": "1.3.0"
+  }
+}
